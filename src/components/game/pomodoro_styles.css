@@ -1,0 +1,98 @@
+/* App.css */
+.conbody {
+  background-color: #111;
+  color: orange;
+  font-family: Arial sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem;
+  }
+}
+
+#timer {
+  font-size: 3rem;
+  color: violet;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 480px) {
+  #timer {
+    font-size: 2rem;
+  }
+}
+
+#options {
+  margin-bottom: 1rem;
+}
+
+.container input[type="number"] {
+  width: 60px;
+  margin-left: 0.5rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.25rem;
+}
+
+.container button {
+  margin: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.container button.start {
+  background-color: #7ee787;
+  color: #111;
+}
+
+.container button.start:hover {
+  background-color: #5cb85c;
+}
+
+.container  button.stop {
+  background-color: #ff6f69;
+  color: #111;
+}
+
+.container button.stop:hover {
+  background-color: #ff3d3d;
+}
+
+.container button.reset {
+  background-color: #9b59b6;
+  color: #fff;
+}
+
+.container button.reset:hover {
+  background-color: #8e44ad;
+}
+
+.container label {
+  color: #ff9f43;
+}
+
+@media (max-width: 480px) {
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}

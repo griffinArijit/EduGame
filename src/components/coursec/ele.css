@@ -1,0 +1,94 @@
+.elebody {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #ffffff; /* White text color */
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #f9d71c; /* Yellow heading color */
+    margin-bottom: 20px;
+  }
+  
+  .video-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+  }
+  
+  .video-container {
+    background-color: #8a6d9e; /* Violet background */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .video-container h3 {
+    font-size: 20px;
+    color: #f9d71c; /* Yellow text color */
+    margin-bottom: 10px;
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    height: 200px; /* Adjust height for smaller screens */
+    border: none;
+  }
+  
+  .assignment-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .assignment-card {
+    background-color: #ff5858; /* Red background */
+    padding: 20px;
+    border-radius: 8px;
+    width: calc(33.33% - 20px); /* Three columns with gap */
+    box-sizing: border-box;
+  }
+  
+  .help-button {
+    background-color: #45aaf2; /* Blue button color */
+    color: #ffffff; /* White text color */
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .help-button:hover {
+    background-color: #1e87ca; /* Darker blue on hover */
+  }
+  
+  .material-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .material-item a {
+    color: #45aaf2; /* Blue link color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .material-item a:hover {
+    color: #8a6d9e; /* Violet on hover */
+  }
+  
